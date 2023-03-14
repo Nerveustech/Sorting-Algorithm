@@ -9,5 +9,7 @@
 
 void bubble_sort(int iArray[], int length);
 void bubble_sort_decreasing(int iArray[], int length);
+int is_sorted(int iArray[], int length);
+int is_sorted_decreasing(int iArray[], int length);
 
 #endif

@@ -7,6 +7,26 @@ void swap(int* iArrayA, int* iArrayB){
     *iArrayB = temp;
 }
 
+int is_sorted(int iArray[], int length){
+    
+    for(int i = 0; i < length - 1; i++){
+        if(iArray[i] > iArray[i + 1])
+            return 1;
+    }
+    
+    return 0;
+}
+
+int is_sorted_decreasing(int iArray[], int length){
+
+    for(int i = 0; i < length - 1; i++){
+        if(iArray[i] < iArray[i + 1])
+            return 1;
+    }
+
+    return 0;
+}
+
 #ifndef NOT_OPTIMIZED
 void bubble_sort(int iArray[], int length){
     
