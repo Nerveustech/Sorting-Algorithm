@@ -6,5 +6,10 @@ This repository was created to study and imporove the following algorithms.
 - src:   This folder contains the implementation of the algorithms.
 - test:  This folder contains tests that can be used either alone or with github actions, to automate the testing process.
 
-# Status
-Under Development
+# Development Status
+- [x] Bubble Sort
+- [] Insertion Sort
+- [] Merge Sort
+- [] Quick Sort
+- [] Selection Sort
+- [] Shell Sort
