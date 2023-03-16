@@ -1,5 +1,5 @@
 # Sorting Algorithms
-This repository was created to study and imporove the following algorithms.
+This repository was created to study and improve the following algorithms.
 
 # Project Tree
 - docs:  This folder contains documents regarding the explanation of the algorithm and any code snippets.
