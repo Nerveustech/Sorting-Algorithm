@@ -3,7 +3,9 @@
 
 #ifndef BUBBLE_SORT_ALGO_H
 #define BUBBLE_SORT_ALGO_H
+
 #include <stdio.h>
+#include <assert.h>
 
 #define get_array_length(array) (sizeof(array) / sizeof((array)[0]))
 

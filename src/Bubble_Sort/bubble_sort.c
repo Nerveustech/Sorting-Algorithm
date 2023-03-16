@@ -30,10 +30,7 @@ int is_sorted_decreasing(int iArray[], int length){
 #ifndef NOT_OPTIMIZED
 void bubble_sort(int iArray[], int length){
     
-    if(!length > 1){
-        fprintf(stderr, "[WARNING!] bubble_sort(int, int lenght): lenght need to be > 1\n");
-        return;
-    }
+    assert(iArray == NULL || length > 1);
 
     int i,j;
     for(i = 0; i < length - 1; i++){
@@ -46,10 +43,7 @@ void bubble_sort(int iArray[], int length){
 
 void bubble_sort_decreasing(int iArray[], int length){
     
-    if(!length > 1){
-        fprintf(stderr, "[WARNING!] bubble_sort(int, int lenght): lenght need to be > 1\n");
-        return;
-    }
+    assert(iArray == NULL || length > 1);
 
     int i,j;
     for(i = 0; i < length - 1; i++){
